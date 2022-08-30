@@ -42,6 +42,7 @@ p {
 .section-m1 {
     margin: 40px 0
 }
+/* ************************ Header ********************* */
 #header {
     display: flex;
     justify-content: space-between;
@@ -49,6 +50,10 @@ p {
     padding: 20px 80px;
     background-color: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 #nav-items {
     display: flex;
@@ -83,4 +88,34 @@ p {
     background-color: var(--green-color);
     left: 20px;
     bottom: -4px;
+}
+/* ************* Home Page ************************** */
+#hero {
+    background-image: url("../imgs/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#hero h4 {
+    padding-bottom: 15px;
+}
+#hero h1 {
+    color: var(--green-color);
+}
+#hero button {
+    background-image: url("../imgs/button.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: var(--green-color);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
 }
