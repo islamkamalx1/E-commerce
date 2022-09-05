@@ -541,7 +541,7 @@ button.white {
 }
 /* ****************************** Blog Page ************************** */
 #page-header.blog-header {
-    background-image: url("/imgs/banner/b19.jpg");
+    background-image: url("../imgs/banner/b19.jpg");
 }
 #blog {
     padding: 150px 150px 0 150px;
