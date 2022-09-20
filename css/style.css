@@ -152,18 +152,18 @@ button.white {
 }
 #feature {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 #feature .fet-box {
-    width: 180px;
+    width: 16%;
+    min-height: 154px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid var(--border-color);
     border-radius: 4px;
-    margin: 15px 0;
+    margin: 15px auto;
 }
 #feature .fet-box:hover {
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
@@ -200,13 +200,12 @@ button.white {
 #products .prod {
     position: relative;
     width: 23%;
-    min-width: 250px;
     padding: 10px 12px;
     border: 1px solid var(--border-color);
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 15px 0;
+    margin: 15px auto;
     transition: 0.2s ease;
 }
 #products .prod:hover {
@@ -225,7 +224,7 @@ button.white {
     font-size: 12px;
 }
 #products .prod .desc h5 {
-    padding-top: 7px;
+    padding: 7px 0;
     color: #1a1a1a;
     font-size: 14px;
 }
@@ -253,10 +252,7 @@ button.white {
 }
 #products .prod-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    padding-top: 20px;
 }
 #banner {
     display: flex;
@@ -288,7 +284,6 @@ button.white {
 }
 #sm-banner {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 #sm-banner .banner-box {
@@ -297,11 +292,12 @@ button.white {
     justify-content: center;
     align-items: flex-start;
     background-image: url("../imgs/banner/b17.jpg");
-    min-width: 45%;
+    min-width: 48%;
     height: 50vh;
     background-position: center;
     background-size: cover;   
     padding: 30px;
+    margin: auto;
 }
 #sm-banner .banner-box2 {
     background-image: url("../imgs/banner/b10.jpg");
@@ -328,7 +324,6 @@ button.white {
 }
 #banner-3 {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 80px;
 }
@@ -338,12 +333,12 @@ button.white {
     justify-content: center;
     align-items: flex-start;
     background-image: url("../imgs/banner/b7.jpg");
-    min-width: 28%;
+    width: 31%;
     height: 30vh;
     background-position: center;
     background-size: cover;   
     padding: 20px;
-    margin-bottom: 20px;
+    margin: auto;
 }
 #banner-3 .banner-box2 {
     background-image: url("../imgs/banner/b4.jpg");
@@ -773,11 +768,11 @@ padding-bottom: 90px;
 }
 #cart-add {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 #cart-add #coupon {
-    width: 50%;
+    width: 70%;
     margin-bottom: 30px;
 }
 #coupon h3,
@@ -798,7 +793,7 @@ padding-bottom: 90px;
     padding: 10px 20px;
 }
 #subtotal {
-    width: 50%;
+    width: 70%;
     margin-bottom: 30px;
     border: 1px solid #e2e9e1;
     padding: 30px;
@@ -822,12 +817,11 @@ padding-bottom: 90px;
     #nav-items {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
         top: 0;
-        right: -300px;
-        width: 300px;
+        right: -555px;
+        width: 60vw;
         height: 100vh;
         background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
@@ -835,7 +829,7 @@ padding-bottom: 90px;
         transition: .3s;
     }
     #nav-items.active {
-        right: 0px;
+        right: -1px;
     }
     #nav-items li {
         margin-bottom: 25px;
@@ -856,8 +850,8 @@ padding-bottom: 90px;
     #close {
         display: initial;
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 20px;
+        right: 30px;
         font-size: 24px;
         color: #222;
         border-radius: 50%;
@@ -876,17 +870,18 @@ padding-bottom: 90px;
         justify-content: center;
     }
     #feature .fet-box {
-        margin: 15px 15px;
+        width: 31%;
+        margin: 15px auto;
     }
     #products .prod-container {
         justify-content: center;
         padding-top: 20px;
     }
     #products .prod {
-        margin: 15px;
+        width: 48%;
     }
     #banner {
-        height: 20vh;
+        height: 35vh;
     }
     #sm-banner .banner-box {
         min-width: 100%;
@@ -933,7 +928,7 @@ padding-bottom: 90px;
         justify-content: space-between;
     }
     #feature .fet-box {
-        width: 155px;
+        width: 48%;
         margin:0 0 15px 0;
     }
     #products .prod {
