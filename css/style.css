@@ -203,7 +203,6 @@ button.white {
     padding: 10px 12px;
     border: 1px solid var(--border-color);
     border-radius: 25px;
-    cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px auto;
     transition: 0.2s ease;
@@ -214,6 +213,7 @@ button.white {
 #products .prod img {
     width: 100%;
     border-radius: 20px;
+    cursor: pointer;
 }
 #products .prod .desc {
     text-align: start;
@@ -249,6 +249,10 @@ button.white {
     position: absolute;
     bottom: 20px;
     right: 15px;
+    transition: .5s;
+}
+#products .prod .cart:hover {
+    color: #ffbd27
 }
 #products .prod-container {
     display: flex;
@@ -765,6 +769,19 @@ padding-bottom: 90px;
 #cart table tbody td {
     padding-top: 15px;
     font-size: 13px;
+}
+input[type='number'] {
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    outline: none
+}
+.size {
+    border: 1px solid #ccc;
+}
+.remove-row {
+    cursor: pointer;
 }
 #cart-add {
     display: flex;
