@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-commerce | Blog</title>
+        <title>E-commerce | Sign Up</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/all.min.css">
     </head>
@@ -18,7 +18,7 @@
                 <ul id="nav-items">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
-                    <li><a class="active-link" href="blog.html">Blog</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <a class="sign-up" href="sign-up.html">Sign Up</a>
@@ -54,80 +54,88 @@
                 </div>
             </div>
         </div>
+        <h2 class="register">Sign in to your account</h2>
         <!-- ********************** Landing ****************************** -->
-        <section id="page-header" class="blog-header">
-            <h2>#readmore</h2>
-            <p>Read all case studies about our products!</p>
-        </section>
-        <!-- ********************* Blog *********************** -->
-        <section id="blog">
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="imgs/blog/b1.jpg" alt="">
+        <div class="container">
+            <div class="forms">
+                <div class="form login">
+                    <span class="title">Login</span>
+    
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your email" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Enter your password" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+    
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="logCheck">
+                                <label for="logCheck" class="text">Remember me</label>
+                            </div>
+                            
+                            <a href="#" class="text">Forgot password?</a>
+                        </div>
+    
+                        <div class="input-field button">
+                            <button type="submit" value="Login">Login</button>
+                        </div>
+                    </form>
+    
+                    <div class="login-signup">
+                        <span class="text">Not a member?
+                            <a href="#" class="text signup-link">Signup Now</a>
+                        </span>
+                    </div>
                 </div>
-                <div class="blog-details">
-                    <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
-                    <p>Kickstarter man braid godard coloring book. Raclette waistcoast
-                    selfies yr wolf chartreuse hexagon irony, goadard...</p>
-                    <a href="#">CONTINUE READING</a>
+    
+                <!-- Registration Form -->
+                <div class="form signup">
+                    <span class="title">Registration</span>
+    
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your name" required>
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your email" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Create a password" required>
+                            <i class="uil uil-lock icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Confirm a password" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+    
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="termCon">
+                                <label for="termCon" class="text">I accepted all terms and conditions</label>
+                            </div>
+                        </div>
+    
+                        <div class="input-field button">
+                            <button type="submit" value="Signup">Signup</button>
+                        </div>
+                    </form>
+    
+                    <div class="login-signup">
+                        <span class="text">Already a member?
+                            <a href="#" class="text login-link">Login Now</a>
+                        </span>
+                    </div>
                 </div>
-                <h1>13/01</h1>
             </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="imgs/blog/b2.jpg" alt="">
-                </div>
-                <div class="blog-details">
-                    <h4>How to Style a Quiff</h4>
-                    <p>Kickstarter man braid godard coloring book. Raclette waistcoast
-                    selfies yr wolf chartreuse hexagon irony, goadard...</p>
-                    <a href="#">CONTINUE READING</a>
-                </div>
-                <h1>13/01</h1>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="imgs/blog/b3.jpg" alt="">
-                </div>
-                <div class="blog-details">
-                    <h4>Must-Have Skater Girl Items</h4>
-                    <p>Kickstarter man braid godard coloring book. Raclette waistcoast
-                    selfies yr wolf chartreuse hexagon irony, goadard...</p>
-                    <a href="#">CONTINUE READING</a>
-                </div>
-                <h1>13/01</h1>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="imgs/blog/b4.jpg" alt="">
-                </div>
-                <div class="blog-details">
-                    <h4>Runway-Inspired Trends</h4>
-                    <p>Kickstarter man braid godard coloring book. Raclette waistcoast
-                    selfies yr wolf chartreuse hexagon irony, goadard...</p>
-                    <a href="#">CONTINUE READING</a>
-                </div>
-                <h1>13/01</h1>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="imgs/blog/b5.jpg" alt="">
-                </div>
-                <div class="blog-details">
-                    <h4>AW20 Menswear Trends</h4>
-                    <p>Kickstarter man braid godard coloring book. Raclette waistcoast
-                    selfies yr wolf chartreuse hexagon irony, goadard...</p>
-                    <a href="#">CONTINUE READING</a>
-                </div>
-                <h1>13/01</h1>
-            </div>
-        </section>
-        <!-- ***************************** Pagination ***************************** -->
-        <section id="pagination" class="section-p1">
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#"><i class="fal fa-solid fa-arrow-right-long"></i></a>
-        </section>
+        </div>
         <!-- ****************************** Footer ********************************** -->
         <footer class="footer section-p1">
             <div class="col">
@@ -174,6 +182,7 @@
                 <img src="imgs/pay/pay.png" alt="">
             </div>
         </footer>
+        <script src="js/sign.js"></script>
         <script src="js/index.js"></script>
     </body>
 </html>
