@@ -73,7 +73,7 @@ class UI {
         products.forEach(product => {
             result += `
             <div class="prod">
-            <img src="${!product.image.startWith(".")&& "." + product.image}" alt="">
+            <img src="${product.image}" alt="">
             <div class="desc">
                 <span>adidas</span>
                 <h5>${product.title}</h5>

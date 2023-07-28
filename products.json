@@ -64,7 +64,7 @@
             "id": "11",
             "title": "Cartoon Astronaut T-Shirt",
             "price": 34,
-            "image": "/imgs/products/n3.jpg"
+            "image": "./imgs/products/n3.jpg"
         },
         {
             "id": "12",
@@ -76,25 +76,25 @@
             "id": "13",
             "title": "Cartoon Astronaut T-Shirt",
             "price": 97,
-            "image": "/imgs/products/n5.jpg"
+            "image": "./imgs/products/n5.jpg"
         },
         {
             "id": "14",
             "title": "Cartoon Astronaut T-Shirt",
             "price": 58,
-            "image": "/imgs/products/n6.jpg"
+            "image": "./imgs/products/n6.jpg"
         },
         {
             "id": "15",
             "title": "Cartoon Astronaut T-Shirt",
             "price": 96,
-            "image": "/imgs/products/n7.jpg"
+            "image": "./imgs/products/n7.jpg"
         },
         {
             "id": "16",
             "title": "Cartoon Astronaut T-Shirt",
             "price": 100,
-            "image": "/imgs/products/n8.jpg"
+            "image": "./imgs/products/n8.jpg"
         }
     ]
 }
